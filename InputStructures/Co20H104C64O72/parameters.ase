@@ -1,5 +1,4 @@
 dict(collect_eigenvectors='.false.',
-     hse_unit='B',
      k_grid=(1, 1, 1),
      relativistic=('atomic_zora', 'scalar'),
      relax_geometry=('trm', 0.01),
@@ -8,4 +7,4 @@ dict(collect_eigenvectors='.false.',
      sc_accuracy_etot=0.0001,
      sc_accuracy_forces=0.01,
      sc_accuracy_rho=1e-05,
-     xc=('hse06', 0.25))
+     xc='pbesol')
